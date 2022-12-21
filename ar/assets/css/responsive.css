@@ -1,0 +1,252 @@
+@charset "UTF-8";
+body { direction: rtl ; }
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1170px;
+	}
+}
+@media (max-width: 1199px) {
+	.faq-img {
+		top: 25%;
+		right: 0;
+	}
+	.why-choose-img {
+		left: 0;
+		top: 160px;
+		width: 38%;
+	}
+	.section-title h2,
+	.section-title-left h2,
+	.section-title-right h2 {
+		color: #111c31;
+		font-size: 40px;
+		line-height: 52px;
+		font-weight: 600;
+	}
+	.blog-content li {
+		margin-left: 14px;
+		font-size: 14px;
+	}
+	.blog-content {
+		padding:25px;
+	}
+	.testimonial-group .owl-nav .owl-prev {
+		right: -75% !important;
+	}
+	.testimonial-group .owl-nav .owl-next {
+		right: -62% !important;
+	}
+	.choose2 {
+		max-width: 30%;
+	}
+	.banner-group .owl-nav {
+		display: none !important;
+	}
+	.menu-icon ul li {
+		margin-left: 13px;
+	}
+}
+@media (max-width: 991px) {
+	.menu-logo img {
+		padding:30px 0px;
+		position: relative;
+		z-index: 10;
+	}
+	.responsive-menu {
+		display: block;
+	}
+	.mean-bar a i {
+		display: none;
+	}
+	.main-menu,
+	.hamburger-icon,
+	.why-choose-img,
+	.faq-img,
+	.faq1,
+	.shape1,
+	.shape2,
+	.choose1,
+	.choose2,
+	.contact-right {
+		display: none !important;
+	}
+	.menu-icon {
+		position: relative;
+		right: 55%;
+	}
+	.slider-content h2 {
+		font-size: 60px;
+		line-height: 65px;
+	}
+	.solution-right {
+		text-align: center;
+	}
+	.section-padding {
+		padding:80px 0px;
+	}
+	.single-slider {
+		padding:100px 0px;
+	}
+	.solution-area .section-title-left h2 {
+		text-align: center;
+	}
+	.testimonial-group .owl-nav .owl-prev {
+		right: -109% !important;
+		top: 70%;
+	}
+	.testimonial-group .owl-nav .owl-next {
+		right: -86% !important;
+		top: 70%;
+	}
+	.subscribe-now {
+		text-align: center;
+	}
+	.subscribe-bg {
+		padding-top: 32px; padding-left: 0; padding-bottom: 40px; padding-right: 0;
+	}
+	.subscribe-shape::after {
+		display: none;
+	}
+	.menu-icon > a::after,
+	.menu-icon > a::before {
+		display: none;
+	}
+	.contact-map iframe {
+		margin-bottom: -170px;
+	}
+	.about-left.ml-50.mr-50.mb-50 {
+		margin:0;
+	}
+}
+@media (max-width: 767px) {
+	.top-left,
+	.top-right {
+		text-align: center !important;
+	}
+	.search-icon.open {
+		display: none;
+	}
+	.menu-icon {
+		right: 86%;
+		bottom: 33px;
+	}
+	.responsive-menu {
+		right: 10px;
+	}
+	.slider-content h2 {
+		font-size: 35px;
+		line-height: 47px;
+	}
+	.section-title h2,
+	.section-title-left h2,
+	.section-title-right h2 {
+		font-size: 30px;
+		line-height: 42px;
+	}
+	.about-signa img,
+	.choose2,
+	.choose1 {
+		display: none;
+	}
+	.collapse-header {
+		padding:10px;
+	}
+	.client-content h3,
+	.team-content h3,
+	.services-content h3,
+	.choose-content h3 {
+		font-size: 20px;
+		line-height: 32px;
+	}
+	.blog-content h3 a {
+		font-size: 20px;
+		line-height: 32px;
+	}
+	.blog-item.mb-70 {
+		margin-bottom: 30px;
+	}
+	.comt-sub {
+		margin-right: 15px;
+	}
+	.btn {
+		font-size: 16px;
+		font-weight: 600;
+	}
+	.counter-item i {
+		font-size: 40px;
+	}
+	.counter {
+		font-size: 30px;
+		font-weight: 600;
+		display: block;
+		margin-bottom: 0;
+		text-align: right;
+	}
+	.subscribe-left h3 {
+		font-size: 24px;
+	}
+	.subscribe-box button {
+		width: 125px;
+	}
+	.subscribe-box button {
+		padding:0 10px;
+		height: 50px;
+		font-size: 15px;
+	}
+	.subscribe-box input[type="text"] {
+		padding-right: 10px;
+		padding-left: 190px;
+		height: 50px;
+	}
+	.mean-container .mean-nav ul li {
+		width: 91%;
+	}
+	.mean-container .mean-nav ul li {
+		right: 20px;
+		top: 0;
+	}
+	.related-share {
+		text-align: right;
+	}
+	.page-title h1 {
+		font-weight: 600;
+		font-size: 48px;
+		line-height: 60px;
+	}
+	.attoyer-btn {
+		padding:0 30px;
+		height: 50px;
+		font-size: 15px;
+	}
+	.attoyer-btn {
+		line-height: 50px;
+	}
+}
+@media (max-width: 575px) {
+	.collapse-header h3 {
+		font-size: 14px;
+	}
+}
+
+svg[class*=right], svg[class*=left], [class*=right].fas, [class*=left].fas {
+    transform: scaleX(-1) !important;
+}
+
+.product-item__badge {
+    transform: rotate(-45deg) translateZ(0) !important;
+}
+
+#st_gdpr_iframe {
+    left: 0 !important;
+    right: -5000px;
+}
+
+.product-form__item select.single-option-selector {
+    background-position: calc(23px) calc(1rem + 10px), calc(27px) calc(1rem + 10px);
+}
+
+.card__badge {
+    -ms-transform: rotate(-45deg) translateZ(0);
+    -webkit-transform: rotate(-45deg) translateZ(0);
+    transform: rotate(-45deg) translateZ(0);
+}
